@@ -1,0 +1,93 @@
+Navigation Bars
+https://onaircode.com/html-css-navbar-examples/
+
+
+self html
+
+klassen vererbung
+https://www.peterkropff.de/site/css/besonderheiten.htm
+
+
+
+
+
+css über id zuweisen
+
+
+<div id="content">
+    <div id="wrapper">
+        <table>
+        </table>
+    </div>
+</div>
+
+
+
+#content {
+  width: 5em;
+  height: 5em;
+  border: 1px solid;
+  border-color: red;
+  position: relative;
+  }
+
+#wrapper {
+  width: 4em;
+  height: 4em;
+  border: 3px solid;
+  border-color: black;
+  position: absolute;
+  left: 50%; top: 50%; /*move the object to the center of the parent object*/
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /*these 5 settings change the base (or registration) point of the wrapper object to it's own center - so we align child center with parent center*/
+  }
+
+table {
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+  border-color: yellow;
+  display: inline-block;
+  }
+
+
+
+https://medium.com/insider-inc-engineering/delightful-ways-to-write-reusable-css-using-subclasses-903e90c9cf87
+
+Consider these examples.
+Here we style the title differently based on where it’s located:
+
+/* CSS */
+
+#header h1.title {...}
+#footer h1.title {...}
+
+In the HTML:
+
+<!-- In the header HTML -->
+<section id=”header”>
+  <h1 class=”title”>
+<!-- In the footer HTML -->
+<section id=”footer”>
+  <h1 class=”title”>
+
+Using multiple parent selectors we increase specificity in order to avoid overwriting styles:
+
+/* CSS */
+
+#header .menu a.title {...}
+With this HTML:
+<!-- In the HTML -->
+<section id=”header”>
+  <div class=”menu”>
+    <a class=”title”>
+
+
+
+Lightbox Bildergalerie
+
+https://lokeshdhakar.com/projects/lightbox2/#examples

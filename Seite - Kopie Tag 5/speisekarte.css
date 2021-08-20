@@ -1,0 +1,59 @@
+body {
+background-image: url("Bilder/gig.jpg");
+background-color:#4E9191; font-family: Georgia,"Times New Roman", sans-serif;
+background-repeat:no-repeat;
+background-position:center top;
+background-size: cover;
+height: 100%;
+}
+
+h1 {color:#294C9E; font-family: Arial, Verdana, "Times New Roman", sans-serif;
+font-size: 30px; line-height: 4px;
+}
+
+h2 {color:#294C9E; Georgia,"Times New Roman", sans-serif;
+font-size: 24px;}
+
+/* unvisited link */
+a:link {
+  color:#9E5226;
+}
+
+/* visited link */
+a:visited {
+  color:#EEDA97;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.feld { background-color: #333333; }
+
+.rahmen {border-bottom: 1px solid #9966AA;}
+
+.zent {text-align: center;}
+
+img {border-radius: 50%;}
+.bild2 {border-radius: 20%;}
+
+.reserv {background-image: linear-gradient(to top, black 0%, white 70%); margin: auto;
+  width: 45%;
+  border: 2px solid green;
+text-align:center; border-radius: 10%;}
+
+
+label {color:#6677AA; font-size:15px; display:block; }
+
+input {color:#334455;}
+
+textarea {color:#334455; font-family: 'Style Script', cursive; font-size:20px;}
+
+#text {font-family: 'Lobster', cursive; font-size:20px;}
+
