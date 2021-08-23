@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIVs und SPANs - Bereiche ohne Aufgabe</title>
+    <style>
+        div{
+            border: 2px solid gray;
+        }
+        #erster_abschnitt {
+            color: blue;
+            background-color: beige;
+            width: 250px;
+            margin: 10px;
+        }
+        #zweiter_abschnitt {
+            background-color: darkseagreen;
+            width: 450px;
+        }
+        .hervorgehoben{
+            text-decoration: underline;
+            font-weight: bold;
+            color: darkslategray;
+        }
+    </style>
+</head>
+<body>
+    <h1>DIVs und SPANs - Bereiche ohne Aufgabe</h1>
+<!-- DIV: Block ELement ohne Aufgabe -->
+    <div id="erster_abschnitt">
+        <!-- SPAN: Inline ELemente ohne Aufgabe -->
+        <p>Wir arbeiten hiermit DIVs, also ABschnitten / <span class="hervorgehoben">Bereichen ohne semantische Bedeuteung.</span> </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi id tempore nihil <span class="hervorgehoben">non unde accusamus cupiditate perspiciatis</span> debitis dolorem? Magnam debitis fugit itaque voluptates eligendi pariatur voluptatum a optio fugiat!</p>
+    </div>
+    <div id="zweiter_abschnitt" class="eine_klasse noch_eine_klasse">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione minima doloribus saepe commodi possimus quia, autem ipsam neque totam molestiae consequatur culpa nihil, nostrum numquam est corrupti inventore vero impedit?</p>
+        <p>Nemo earum ab similique veritatis tempore illo mollitia delectus, <span class="hervorgehoben">quidem provident numquam quasi eaque</span> aspernatur consequuntur harum quod explicabo? Delectus nesciunt minima ad vitae suscipit fuga, recusandae nemo excepturi molestiae?</p>
+        <p>Praesentium consequatur, sed eius odit pariatur exercitationem, ut sint, reiciendis iste eos magnam. Consectetur vel hic natus illo aut, enim aperiam nam ab perferendis non, ipsa dolor minus totam commodi.</p>
+    </div>
+</body>
+</html>
