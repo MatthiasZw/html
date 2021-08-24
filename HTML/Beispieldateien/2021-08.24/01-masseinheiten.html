@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masseinheitenm in Css</title>
+
+    <style>
+        /*  
+        *** absolute Maßangaben ***
+        Pixel (px)
+        Punkt (pt)
+        Inch (in)
+        Millimeter (mm)
+        Zentimeter (cm)
+
+        ***Relative Maßeinheiten ***
+        Prozent (%) - bezieht sich auf (Schrift-)Größe des Eltern-Elementes
+
+        Ems (em, rem) - bezieht sich auf die Breite des Buchstaben "m" ...
+
+        1 em: ...des am nächsten gelegenen Eltern-Elementes (ähnlich Prozent)
+
+        1 rem: ...des Root-Elementes (html, body)
+
+        Exes (ex) - wie "em" nur die Breite des kleinen "x" ist die Basis
+
+        Viewportbreite (vw)
+        Viewporthöhe (vh) - beziehen sich auf die Größe des Bildschirms
+        */
+
+        html {
+            font-size: 32px;
+        }
+        div {
+            font-size: 0.5em;
+        }
+        .wrapper {
+            background-color: aquamarine;
+            height: 60vh;
+        }
+        h1 {
+            font-size: 2ex;
+        }
+        p {
+            font-size: 0.5em;
+        }
+        .basis {
+            font-size: 0.5rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Masseinheitenm in Css</h1>
+        <p>Standard-Absatz</p>
+
+        <div>
+            <h2>Überschrift 2</h2>
+            Text im DIV
+            <p>Hier kommt ein Absatz.</p>
+            <p class="basis">Hier kommt ein rem-Absatz.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemente positionieren</title>
+
+    <style>
+        body{margin: 0;}
+#eins {
+    width: 100px;height: 100px;background-color: greenyellow;
+    /* position: absolute;
+    top: 50px;
+    left: 150px; */
+    /* position: relative;
+    top: 50px;
+    left: 250px; */
+    position: fixed;
+    right: 600px;
+    bottom: 400px;
+}
+#zwei {
+    width: 400px;height: 2000px;background-color: tomato;
+    position: relative;
+    left: 100px;
+    top: 200px;
+}
+#drei {
+    width: 150px;height: 100px;background-color: lightblue;position: sticky;
+    top: 50px;
+}
+
+    </style>
+</head>
+<body>
+    <div id="eins">Eins</div>
+    <div id="zwei">
+        <div id="drei">Drei</div>
+        Zwei
+    </div>
+</body>
+</html>

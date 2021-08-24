@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innenabstand, Rahmen und Überlauf</title>
+</head>
+
+<style>
+div{background-color: #ed9c53;padding: 10px; border-left:10px solid #666;
+}
+#unten, #ganzunten{ margin-top: 20px;
+}
+
+#unten{
+    width: 200px;height: 200px;
+}
+
+#unten > div {
+    height: 180px;overflow-y: scroll;
+}
+
+#ganzunten{
+    width: 200px;height: 200px; overflow: auto; border-radius: 2em; text-align: center;
+}
+</style>
+<body>
+    <h1>Innenabstand, Rahmen und Überlauf</h1>
+
+    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero adipisci cupiditate dignissimos, commodi nihil, totam at rerum autem eos itaque harum distinctio quia tempore, odit illum aspernatur culpa iure modi.</div>
+    
+    <div id="unten">
+        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, culpa repellendus saepe sed esse eos reprehenderit laudantium sapiente ab totam beatae, perferendis alias nam possimus doloremque id soluta architecto labore.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores, culpa repellendus saepe sed esse eos reprehenderit laudantium sapiente ab totam beatae, perferendis alias nam possimus doloremque id soluta architecto labore.</div>
+    </div>
+
+    <div id="ganzunten">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil provident, commodi dicta similique accusamus facilis maxime minima dolore ratione laudantium unde doloremque consequuntur magnam est ex officiis! Minus, inventore modi?</div>
+</body>
+</html>

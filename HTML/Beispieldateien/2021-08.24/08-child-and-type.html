@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>*-child oder *-of-type?</title>
+    <style>
+
+    div, p { padding: 10px; }
+    .wrapper div { background-color: rgb(10, 134, 6); }
+    .wrapper p { background-color: rgb(30, 130, 197); }
+    .wrapper p:nth-of-type(2) {
+    color: #f0c713;
+    font-weight: bold;
+}
+    
+    </style>
+</head>
+<body>
+    <h1><code>*-child</code> oder <code>*-of-type</code>?</h1>
+
+    <div class="wrapper">
+        <p>Type: p, 1. Kind von <code>.wrapper</code></p>
+        <div>Type: div, 2. Kind von <code>.wrapper</code></div>
+        <p>Type: p, 3. Kind von <code>.wrapper</code></p>
+        <p>Type: p, 4. Kind von <code>.wrapper</code></p>
+        <div>Type: div, 5. Kind von <code>.wrapper</code></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprites</Title>
+
+    <style>
+        div{width: 64px;height: 64px;background-image: url(images/icons64.png);background-repeat: no-repeat;}
+#tw{background-position: 0 -64px;}
+#go{background-position: 0 -128px;}
+div>a{
+    /* 1. Inline-Element a zum Block-Element */
+    display: block;
+
+    /* 2. Klickbereich vergrößern */
+    width: 100%;
+    height: 100%;
+
+    /* 3. Schrift verschwinden lassen */
+    text-indent: -9999px;
+}
+    </style>
+</head>
+<body>
+    <h1>Sprites</h1>
+    
+
+    <h2>Facebook</h2>
+    <div id="fb"><a href="#">Facebook</a></div>
+    <h2>Twitter</h2>
+    <div id="tw"><a href="#">Twitter</a></div>
+    <h2>Google</h2>
+    <div id="go"><a href="#">Google</a></div>
+
+</body>
+</html>
