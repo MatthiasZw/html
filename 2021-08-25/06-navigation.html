@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigationsleiste mit Flexbox</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        nav > ul{
+            /* Flexbox aktivieren */
+            display: flex;
+
+            /* List-Bullets ausblenden */
+            list-style: none;
+
+            /* Hintergrundfarbe festlegen */
+
+            background-color: cornflowerblue;
+        }
+
+        nav>ul>li{
+            /* Abstand nach rechts hinzufügen */
+            margin-right: 10px;
+            
+        }
+        nav>ul>li>a{
+         /* Unterstreichung deaktivierung */
+         text-decoration:none; 
+         
+         /* Zum Inline Block umstellen */
+         display: inline-block;
+         
+         /* Innenabstand hinzufügen */
+         padding: 10px;
+
+        }
+
+        /* Unbesuchte links */
+        nav>ul>li>a:link,
+        /*Besuchte links  */
+        nav>ul>li>a:visited,
+        /* aktiver link */
+        nav>ul>li>a:active,
+        /* Fokus */
+        nav>ul>li>a:focus {
+            color: cornsilk;
+        }
+
+        /* Mouse over link */
+        nav>ul>li>a:hover{
+            background-color: lightblue;
+            color: black;
+        }
+
+        /* letzter Meüpunkt nach rechts */
+        nav>ul>li:last-child{
+            margin-left: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#">Startseite</a></li>
+            <li><a href="#">Über uns</a></li>
+            <li><a href="#">Produkte</a></li>
+            <li><a href="#">Kundenmeinungen</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Impressum</a></li>
+        </ul>
+    </nav>
+    
+</body>
+</html>

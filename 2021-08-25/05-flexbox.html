@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Beispiel</title>
+
+    <style>
+        /* Grundsätliche EInstellungen */
+
+        body, h2{
+            font-family: sans-serif; 
+            font-size: 16px;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        .flexcontainer{
+            border: 1px solid gray;
+            padding: 4px;
+            margin-bottom: 5px;
+            width: 600px;
+        }
+        .flexcontainer2{
+            border: 1px solid rgb(172, 32, 32);
+            padding: 4px;
+            margin-top: 20px;
+            width: 600px;
+            display:flex;
+            justify-content: space-around;
+        }
+
+        .flexitem{
+            background-color: chocolate;
+            margin-bottom: 5px;
+            padding: 10px;
+        }
+
+        /* Flexbox */
+
+        .flexcontainer{
+            display:flex;
+            justify-content: space-around;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Flexbox Beispiel</h1>
+
+    <div class="flexcontainer">
+        <div class="flexitem">Item 1</div>
+        <div class="flexitem">Item 2 <br>Text</div>
+        <div class="flexitem">Item 3</div>
+        <div class="flexitem">Item 4</div>
+        <div class="flexitem">Item 5</div>
+    </div> 
+    
+    <div class="flexcontainer2">
+        <p class="flexitem">Item 1</p>
+        <div class="flexitem">Item 2 <br>Text</div>
+        <p class="flexitem">Item 3</p>
+        <div class="flexitem">Item 4</div>
+        <p class="flexitem">Item 5</p>
+    </div>
+</body>
+</html>

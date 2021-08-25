@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Externe Links</title>
+    <link rel="stylesheet" href="icons/solid.min.css">
+    <style>
+        /* Varainte 1: selektieren nach dem target-Attribut: */
+        
+        /* Selektiere einen Bereich hinter link mit attribut traget */
+        /* 
+        a[target]::after {
+            font-family: "Font Awesome 5 Free";
+            content: " \f35d ";
+        } */
+
+
+        /* V2 selektieren nach https */
+        /* bereich hinter link mit https */
+
+        a[href^=https]::after {
+
+            font-family: "Font Awesome 5 Free";
+            content: " \f35d";
+        }
+    </style>
+</head>
+<body>
+    <h1>Externe Links mit Icon kennzeichnen</h1>
+
+
+    <p><a href="https://google.de">Google</a></p>
+
+    <p><a href="01-schriften-cdn.html">Schriften per CDN einbetten</a></p>
+
+    <p><a href="https://www.IAD.de" target="_blank">IAD</a></p>
+</body>
+</html>
