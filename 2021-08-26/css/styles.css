@@ -1,0 +1,241 @@
+/* === Allgemeinse Styling === */
+html, *{
+    margin: 0;
+    padding: 0;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+}
+
+body {
+    background: #73a4e0 url(../images/base_xs.jpg)
+    no-repeat top center fixed;
+}
+
+@media screen and (min-width:769px) {
+    body{
+        background: url(../images/base_xl.jpg);
+    }
+    .wrapper{
+        width: 996px;
+    }
+}
+
+/* === Navigation === */
+#mainnav {
+    width: 100%;
+    background-color: rgba(66,88,126,.7);
+    border-bottom:1px solid #d9fffc;
+}
+
+#mainnav div.wrapper{
+    display: flex;
+}
+
+#mainnav ul{
+    display: none;
+    list-style: none;
+}
+
+#mainnav ul:first-child{
+    margin-right: 50px;
+}
+
+#mainnav ul:last-of-type{
+    font-weight: bold;
+}
+
+#mainnav a{
+    padding: 11px 5px 8px;
+    font-size: 0.9rem;
+}
+
+#mainnav a:link,
+#mainnav a:visited,
+#mainnav a:active{
+    color: #fff;
+    text-decoration: none;
+}
+
+#mainnav a:hover{
+    color: #333;
+    background-color: #fff;
+}
+
+
+
+@media screen and (min-width:769px){
+    #mainnav ul{
+        display: flex;
+        padding:10px 2px 5px;
+    }
+        #navbutton {
+            display: none;
+   }
+}
+
+/* Logo in Navigation */
+
+#branding{
+    width: 70px;
+    height: 35px;
+    background: url(../images/ardlogo_weiss.png)
+    no-repeat 0 0;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#branding h2{
+    text-indent: -999999px;
+}
+
+#branding a{
+    display: inline-block;
+    width: 70px;
+    height: 35px;
+}
+
+/* Klickfläche bei ARD LOGO */
+#branding a:hover{
+    color: rgba(1,1,1,1) !important;
+    background-color: transparent;
+}
+
+/*  === main_head === */
+
+#main_head{
+    margin-bottom: 30px;
+}
+
+#main_logo img{
+width: 280px;
+}
+
+#main_head form{
+    margin-top: 20px;
+}
+
+#main_head input{
+    background:#fff url(../images/lens.svg) no-repeat center right;
+    background-size: 30px 30px;
+    height: 36px;
+    width: 260px;
+    padding: 3px 40px 3px 3px;
+    font-size: .9rem;
+}
+
+@media screen and (min-width: 769px) {
+    #main_head{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/*  === main_content === */
+.main_content{
+    background: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.row{
+    width: 100%;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+header h2{
+    font-family: "Times New Roman",serif;
+}
+
+h4{
+    margin-top: 10px;
+}
+p{
+margin: 15px 0;
+}
+
+p:first-child{
+    margin-top: 0;
+}
+
+p.teaser{
+    border-top: 1px solid #42587e;
+    padding: 10px 0;
+    margin: 0;
+}
+
+p.teaser:last-child{
+    border-bottom: 1px solid #42587e;
+}
+
+@media screen and (min-width: 769px){
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .col-2{
+        width: 478px;
+    }
+    .col-3{
+        width:312px;
+    }
+    .col-4{
+        width:229px;
+    }
+}
+
+/* ===  Footer  === */
+footer{
+    background-color: #001a4b;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 12px;
+}
+
+footer h4,
+footer p,
+footer a{
+    color: #d9fffc;
+    text-decoration: none;
+}
+
+footer ul li{
+    list-style: none;
+    margin-top: 5px;
+    }
+
+footer .imprint{
+    margin-top: 15px;
+}
+
+footer img{
+    width: 200px;
+    height: auto;
+}
+
+@media screen and (min-width: 769px){
+    footer .imprint{
+        display:flex;
+    }
+    footer ul.imprint li {
+        margin-right: 10px;
+    }
+    footer .copy{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+}
