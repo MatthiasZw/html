@@ -1,0 +1,244 @@
+/* Normalisierung */
+html, *{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    height: 200vh;
+    background-color: #3f3e3c;
+}
+
+.wrapper{
+    width: 768px;
+    padding: 150px 0;
+    margin: 0 auto;
+
+}
+
+/* Navigation */
+
+nav{
+    width: 100%;
+    margin-left: 30px;
+    top: .8rem;
+    position:absolute;
+}
+
+
+nav>ul>li>#golden{ 
+    font-size: 2rem;
+    font-style: italic;
+    color: #fed136;
+    margin-right: 200px;
+}
+
+nav>ul>h2{
+    text-indent: -99999px;
+    color: #fed136;
+
+}
+
+nav>ul{
+    display:flex;
+    padding-top:10px;
+    padding-right: 100px;
+    list-style: none;
+    justify-content: space-evenly;
+
+    
+}
+
+nav >ul >li{
+    padding-right: 10px;
+}
+nav >ul >li > a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: antiquewhite;
+    
+}
+
+nav >ul >li > a:hover{
+    color:aqua;
+}
+
+/* Header */
+
+header{
+    background: #3f3e3c url("../images/header-background.jpg")
+    no-repeat center center;
+    color:  #fff;
+    padding: 40px 0;
+    text-align: center;
+    height: 500px;
+    background-size: cover;
+
+}
+
+header h1{
+    font-size: 2rem;
+    margin: 1rem 0 .8rem;
+}
+
+header h2{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+header a{
+    display:inline-block;
+    color: #333;
+    background-color: #fed136;
+    padding: .8em;
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+header a:hover {
+    background-color: #ceab2b;
+}
+
+.wrapper2{
+    display: flex;
+    background-color: #fff;
+    background-size: 100%;
+    padding: 150;
+    margin: auto;
+}
+
+#über{
+    display: flexbox;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+    color: #3f3e3c;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+#dienst{
+    padding-bottom: 20px;
+    font-style: bold;
+}
+
+#wir{
+font-style: italic;
+}
+
+.wrapper3{
+    display: flex;
+    background-color: #fff;
+    background-size: 100%;
+    padding: 150;
+    margin: auto;
+    text-align: center;
+}
+
+section>div>div>i{
+    font-family: "Font Awesome 5 Free";
+    font-size: 4rem;
+    color:rgb(26, 219, 106);
+    padding: 5px;
+    border:2px solid #fed136;
+    border-radius: 50%;
+    font-style: normal;
+    
+}
+
+.row{
+    display: flex;
+    color: #3f3e3c;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 0 150px;
+}
+
+.sub{
+    font-weight: bold;
+}
+
+.block{
+    font-size: 1rem;
+    font-style: italic;
+    text-align:center;
+    padding: 10px;
+}
+
+
+
+.main_content{
+    display:flex;
+    background: rgb(211, 211, 211);
+    padding: 10px;
+}
+
+h2{text-align: center;}
+
+
+.row4{
+    width: 100%;
+    padding: 0 50px 50px;
+    display:flex;
+    justify-content: center;
+
+}
+
+img{
+    width: 380px;
+
+}
+
+.col-3{
+    text-align: center;
+    background-color: #fff;
+    margin:20px;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+#über2{
+    display: flexbox;
+    background-color:rgb(211, 211, 211);
+    width:100%;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+    color: #3f3e3c;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+h4{
+    color:#8d8b86;
+    font-weight: lighter;
+}
+section>div>div>figure>figcaption{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+section>div>div>p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: #8d8b86;
+}
+
+.main_content2{
+    display:flex;
+    justify-content: center;
+    background: rgb(211, 211, 211);
+    padding: 10px;
+}
+
+#img1{
+    width:150px;
+    border-radius: 50%;
+}

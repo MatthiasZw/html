@@ -1,0 +1,209 @@
+/* Normalisierung */
+html, *{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background-color: #f7f7f7;
+}
+
+.wrapper{
+    width: 996px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+p{
+    color: #666;
+    margin-top: 10px;
+}
+
+h4{
+
+}
+
+section header{
+    text-align: center;
+    margin-top: 100px;
+}
+
+section p.lead{  
+    font-style: italic;
+}
+
+section h3{
+    margin-top: 10px;
+}
+
+main section:nth-child(odd) {
+    background-color: #fff;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.col-3{
+    width: 31.5%;
+    max-width: 33%;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+/* Navigation */
+
+#pageheader nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#pageheader.wrapper {
+    padding-top: 0;
+
+}
+
+#logo a{
+    color: #fed136;
+    text-decoration: none;
+}
+
+#logo h2{
+    font-weight: normal;
+    font-style: italic;
+    color: #fed136;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 500px;
+}
+
+nav ul li a {
+    color: #999;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    color: #fff;
+}
+
+/* #pageheader */
+
+#pageheader{
+    background: #3f3e3c url("../images/header-background.jpg")
+    no-repeat top center;
+    color:  #fff;
+    padding: 40px 0;
+    text-align: center;
+    height: 350px;
+    background-size: cover;
+
+}
+
+#pageheader h1{
+    font-size: 2rem;
+    margin: 1rem 0 .8rem;
+}
+
+#pageheader h2.headertext{
+    font-size: 1.5rem;
+    font-style: italic;
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+#pageheader p a{
+    display:inline-block;
+    color: #333;
+    background-color: #fed136;
+    padding: .8em;
+    border-radius: 5px;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+#pageheader p a:hover {
+    background-color: #ceab2b;
+}
+
+/* Services */
+
+#service .service-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    color: #fed136;
+    font-size: 2rem;
+    border: 1px solid #fed136;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Referenzen */
+.card-top{
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 00.25rem;
+}
+.card-bottom{
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid rgb(0, 0, 0, 0.125);
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+#Portfolio .row{
+    flex-wrap: wrap;
+}
+
+#Portfolio .col-3{
+    width: 31.5%;
+    margin-bottom: 25px;
+}
+
+/* About us */
+#aboutus .col-3{
+    width: 390px;
+    width: 390px;
+    text-align: right;
+}
+
+#aboutus .col-3:nth-child(2){
+    width: 170px;
+    padding: 0 15px;    
+}
+#aboutush h5,
+#aboutus h6{
+    font-size: 1rem;
+}
+
+.about-us-image{
+    border-radius: 50%;
+    border: 5px solid #f7f7f7;
+}
+
+#aboutus .row:nth-of-type(even) .col-3:nth-child(1){
+    order: 1;
+    text-align: left;
+}
+
+#aboutus .row:nth-of-type(even) .col-3:nth-child(3){
+    order: -1;
+}
