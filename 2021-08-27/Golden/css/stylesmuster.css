@@ -189,9 +189,18 @@ nav ul li a.active{
     width: 170px;
     padding: 0 15px;    
 }
-#aboutush h5,
+#aboutus h5,
 #aboutus h6{
     font-size: 1rem;
+}
+
+#aboutus .row{
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+#aboutus .row:first-of-type{
+    
 }
 
 .about-us-image{
