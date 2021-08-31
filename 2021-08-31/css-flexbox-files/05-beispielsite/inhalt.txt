@@ -1,0 +1,49 @@
+<main>
+
+<h2>Die Galerie</h2>
+
+<section class="galerie">
+  
+  <article>
+    <figure>
+      <img src="img/landschaft01.jpg" alt="Foto - Bretagne - Cap Fréhel">
+    </figure>
+    <div class="text">
+      <h3>Cap Fréhel</h3>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse egestas ultricies pede.</p>
+    </div>
+  </article>
+
+  <article>
+    <figure>
+      <img src="img/landschaft02.jpg" alt="Foto - Bretagne - Pointe du Van">
+    </figure>
+    <div class="text">
+      <h3>Pointe du Van</h3>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse egestas ultricies pede.</p>
+    </div>
+  </article>  
+
+  <article>
+  <figure>
+    <img src="img/landschaft03.jpg" alt="Foto - Bretagne - Quiberon">
+  </figure>
+  <div class="text">
+    <h3>Quiberon</h3>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse egestas ultricies pede.</p>
+  </div>
+  </article>
+  
+  <article>
+    <figure>
+      <img src="img/landschaft04.jpg" alt="Foto - Bretagne - Douranenez">
+    </figure>
+    <div class="text">
+      <h3>Douarnenez</h3>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse egestas ultricies pede.</p>
+    </div>
+  </article>  
+  
+</section>  <!-- Ende .galerie -->
+
+</main>      

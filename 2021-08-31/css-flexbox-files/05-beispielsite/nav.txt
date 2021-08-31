@@ -1,0 +1,7 @@
+<nav class="navmain">
+  <ul>
+    <li><a href="#">Startseite</a></li>
+    <li><a href="#" class="sie-sind-hier">Galerie</a></li>
+    <li><a href="#">Kontakt</a></li>
+  </ul>
+</nav> 
