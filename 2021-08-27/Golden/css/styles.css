@@ -284,9 +284,67 @@ figure{
     border-radius: 50%;
 }
 
-.formular{
-    display:flex;
-    flex-direction: row;
-    align-content:flex-start;
+.wrapper5{
+    display: flex;
+    background-size: 100%;
+    background-color: transparent;
+    padding: 150;
+    justify-content: center;
 }
 
+.wrapper4{
+display:flex;
+justify-content: space-around;
+width: 100%;
+flex: 0 0 auto;
+}
+
+
+
+.formular{
+    display:flex;
+    flex-flow: column;
+    align-content: center;
+    margin:50px; 
+}
+
+.feld{
+    margin-top: 32px;
+    margin-left: 30px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.text{
+    margin-top: 30px;
+    font-size: 1.2rem;  
+    border-radius: 5px;
+}
+
+.senden{
+display:flex;
+justify-content: center;
+}
+
+#senden{
+    font-size: 25px;
+}
+
+#uber3{
+    width:100%;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+#senden{
+background-color: #fed136;
+font-size: 1.4rem;
+font-weight:lighter;
+padding: 10px;
+border-radius: 5px;
+
+}
