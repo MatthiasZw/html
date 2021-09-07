@@ -39,3 +39,31 @@ section {
 #about .carousel-item {
     height: 600px;
 }
+
+#designs{
+    background: url(../img/ke-gloss-carbon-fiber-13037-ke-gcf4.jpg) 50% 0 fixed no-repeat;
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+#kontakt{
+    background: url(../img/ke-gloss-carbon-fiber-13037-ke-gcf4.jpg) 50% 0 fixed no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+#backtotopbutton {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+.input-group-lg > .form-control {
+    border-radius: 30px;
+}
+
+.input-group-lg > .input-group-text {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
