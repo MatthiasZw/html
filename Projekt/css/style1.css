@@ -1,0 +1,7 @@
+.bg-image{
+    background-image: url(../img/ke-gloss-carbon-fiber-13037-ke-gcf4.jpg);
+}
+
+.card > p, h1{
+    text-align:center;
+}
