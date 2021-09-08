@@ -1,11 +1,5 @@
 /* Button */
 
-/*  .body{
-     display: flex;
-     flex-direction: column;
-     height: 100%;
-     justify-content: space-evenly;
- } */
 .btn-round {
     border-radius: 30px;
 }
