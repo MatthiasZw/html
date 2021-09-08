@@ -1,4 +1,11 @@
 /* Button */
+
+/*  .body{
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+     justify-content: space-evenly;
+ } */
 .btn-round {
     border-radius: 30px;
 }
@@ -13,7 +20,7 @@ section .container {
 
 
 section {
-    padding: 140px 0;
+    padding: 40px 0;
 }
 
 #home .container {
@@ -37,7 +44,6 @@ section {
 }
 
 
-
 #about .carousel-item {
     height: 600px;
 }
@@ -46,14 +52,12 @@ section {
 
 #designs{
     background: url(../img/ke-gloss-carbon-fiber-13037-ke-gcf4.jpg) 50% 0 fixed no-repeat;
-    height: 100vh;
     background-size: cover;
     
 }
 
 #kontakt{
     background: url(../img/ke-gloss-carbon-fiber-13037-ke-gcf4.jpg) 50% 0 fixed no-repeat;
-    height: 100vh;
     background-size: cover;
 }
 
@@ -71,3 +75,8 @@ section {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
+
+#des{
+    padding-bottom: 50px;
+}
+
