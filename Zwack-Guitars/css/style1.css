@@ -1,5 +1,6 @@
 .bg-image{
     background-image: url(../img/ke-gloss-carbon-fiber-13037-ke-gcf4.jpg);
+    background-size: cover;
 }
 
 .btn-round {
