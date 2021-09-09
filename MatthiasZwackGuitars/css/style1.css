@@ -1,0 +1,29 @@
+.bg-image{
+    background-image: url(../img/ke-gloss-carbon-fiber-13037-ke-gcf4.jpg);
+    background-size: cover;
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+
+#brand{
+    margin-right: 30px;
+}
+
+.container {
+    padding: 140px 0;
+}
+
+.col {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30rem;
+}
+
+.card > p, h1{
+    text-align:center;
+}
